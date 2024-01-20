@@ -11,7 +11,6 @@ def dfs(start):
     
     for j in range(start, n+1):
         temp.append(j)
-        print("중간점검 :", j)
         dfs(j)
         print(temp.pop())
     
